@@ -1,6 +1,7 @@
 # color-converter
 
-convert rgb to hex || convert hex to rgb
+- convert rgb to hex 
+- convert hex to rgb
 
 # screen shot
 
