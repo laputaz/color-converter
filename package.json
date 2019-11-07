@@ -1,0 +1,22 @@
+{
+  "name": "color-converter",
+  "version": "1.0.0",
+  "description": "convert rgb to hex",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Border-Line/color-converter.git"
+  },
+  "author": "River Z",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Border-Line/color-converter/issues"
+  },
+  "homepage": "https://github.com/Border-Line/color-converter#readme",
+  "dependencies": {
+    "buefy": "^0.8.6"
+  }
+}

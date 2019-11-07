@@ -1,0 +1,51 @@
+html,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: Menlo, "Meslo LG", "Microsoft Yahei Light", "Microsoft Yahei",
+    Helvetica, Arial, sans-serif;
+  width: 100%;
+}
+#app {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+    0 0 0 1px rgba(10, 10, 10, 0.02);
+  color: #4a4a4a;
+  display: block;
+  padding: 1.25rem;
+}
+section {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 5%;
+}
+h1 {
+  line-height: 31px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  width: 137px;
+  color: #fff;
+  position: relative;
+  border-radius: 0 04px 4px 0;
+  background: #a6d1a6;
+  font-size: 16px;
+  left: -20px;
+  padding: 0 20px;
+}
+.preview {
+  height: 36px;
+  border-radius: 3px;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  color: #ccc;
+  position: fixed;
+  bottom: 5px;
+  font-size: 12px;
+}

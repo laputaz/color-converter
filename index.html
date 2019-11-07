@@ -1,0 +1,58 @@
+<link rel="stylesheet" href="https://unpkg.com/buefy/dist/buefy.min.css" />
+<link rel="stylesheet" href="./demo.css" />
+
+<div id="app">
+  <h1>Hex To RGB</h1>
+  <section style="border-bottom: #f7f7f7 1px solid;margin-bottom: 20px;">
+    <b-field label="Hex">
+      <b-input v-model="hex" placeholder="#xxxxxx" maxlength="7"></b-input>
+    </b-field>
+    <b-field label="RGB">
+      <b-input v-model="computedRGB" disabled></b-input>
+    </b-field>
+    <b-field label="preview">
+      <div class="preview" :style='{"background-color":hex||"#f5f5f5"}'></div>
+    </b-field>
+  </section>
+  <h1 style="background-color: #f14667;">Hex To RGB</h1>
+  <section>
+    <b-field label="RGB">
+      <b-input
+        v-model="rgb"
+        placeholder="rgb(xxx,xxx,xxx)"
+        maxlength="16"
+      ></b-input>
+    </b-field>
+    <b-field label="Hex">
+      <b-input v-model="computedHex" disabled></b-input>
+    </b-field>
+    <b-field label="preview">
+      <div class="preview" :style='{"background-color":rgb||"#f5f5f5"}'></div>
+    </b-field>
+  </section>
+</div>
+<footer>
+  created by river Z.
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<!-- Full bundle -->
+<script src="https://unpkg.com/buefy/dist/buefy.min.js"></script>
+<script type="module">
+  import { convertHexToRGB, convertRGBToHex } from "./index.js";
+
+  let app = new Vue({
+    el: "#app",
+    data: {
+      hex: "#3298dd",
+      rgb: "rgb(166,209,166)"
+    },
+    computed: {
+      computedRGB() {
+        return convertHexToRGB(this.hex);
+      },
+      computedHex() {
+        return convertRGBToHex(this.rgb);
+      }
+    }
+  });
+</script>
