@@ -41,6 +41,11 @@ h1 {
   height: 36px;
   border-radius: 3px;
 }
+.input,
+.taginput .taginput-container.is-focusable,
+.textarea {
+  box-shadow: none;
+}
 footer {
   width: 100%;
   text-align: center;
