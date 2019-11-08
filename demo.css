@@ -17,7 +17,7 @@ body {
     0 0 0 1px rgba(10, 10, 10, 0.02);
   color: #4a4a4a;
   display: block;
-  padding: 1.25rem;
+  padding: 2.25rem 3em;
 }
 section {
   display: grid;
@@ -25,16 +25,16 @@ section {
   gap: 5%;
 }
 h1 {
-  line-height: 31px;
+  line-height: 35px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 29px;
   width: 137px;
   color: #fff;
   position: relative;
   border-radius: 0 04px 4px 0;
   background: #a6d1a6;
   font-size: 16px;
-  left: -20px;
+  left: -48px;
   padding: 0 20px;
 }
 .preview {
