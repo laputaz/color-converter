@@ -1,6 +1,6 @@
 # color-converter
 
-- convert rgb to hex 
+- convert rgb to hex
 - convert hex to rgb
 
 ### screen shot
@@ -9,9 +9,6 @@
 
 ### use
 
-- convertHexToRGB
-- convertRGBToHex
-
-```
+```javascript
  import { convertHexToRGB, convertRGBToHex } from "./index.js";
 ```
