@@ -3,13 +3,11 @@
 - convert rgb to hex 
 - convert hex to rgb
 
-# screen shot
+### screen shot
 
 ![screenshot](./demo.png)
 
-# how to use
-
-provide two method
+### use
 
 - convertHexToRGB
 - convertRGBToHex
