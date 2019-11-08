@@ -5,7 +5,7 @@
 
 ### screen shot
 
-![screenshot](./demo.png)
+![screenshot](./demos.png)
 
 ### use
 
